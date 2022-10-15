@@ -1,0 +1,89 @@
+body {
+    padding: 0;
+    position: fixed;
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+}
+
+.bar {
+    background-color: #41C7A4;
+    height: 3rem;
+}
+
+.blog-nav {
+    background-color: #fff;
+    box-sizing: border-box;
+    height: 7rem;
+}
+
+.img-container {
+    width: 25%;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container img {
+    height: 5rem;
+}
+
+.about-me-container{
+    width: 15%;
+    height: 100%;
+    color: #000;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-container a{
+    font-size: 1.5rem;
+    color: #000;
+}
+
+main {
+    background-image: url(/img/Cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    text-align: center;
+}
+
+h1 { margin: 0 auto; }
+
+.title-container {
+    height: 50%;
+    width: 50%;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    letter-spacing: 0.9rem;
+}
+
+button {
+    background-color: #41C7A4;
+    font-size: 18px;
+    width: 7rem;
+    height: 3.3rem;
+    border:  1px solid ;
+    font-weight: 800;
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+.bar a {
+    text-decoration: none;
+}
